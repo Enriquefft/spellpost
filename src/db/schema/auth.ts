@@ -1,4 +1,4 @@
-import { boolean, text, timestamp } from "drizzle-orm/pg-core";
+import { boolean, serial, text, timestamp } from "drizzle-orm/pg-core";
 
 import { schema } from "./schema.ts";
 
@@ -10,6 +10,16 @@ export const user = schema.table("user", {
 	image: text("image"),
 	name: text("name").notNull(),
 	updatedAt: timestamp("updated_at").notNull(),
+});
+
+export const leads = schema.table("leads", {
+	challenge: text("challenge"),
+	email: text("email"),
+	id: serial("id").primaryKey(),
+	name: text("name"),
+	phone: text("phone"),
+	platform: text("platform"),
+	timeline: text("timeline"),
 });
 
 export const session = schema.table("session", {
