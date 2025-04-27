@@ -23,15 +23,15 @@ export default function HomeContent() {
 			<section className="relative min-h-screen flex flex-col items-center justify-center px-6 pt-16">
 				<div className="container mx-auto text-center max-w-3xl">
 					<h1 className="text-4xl md:text-5xl lg:text-6xl font-poppins font-bold mb-6 leading-tight">
-						Ready to Make Your Next Post{" "}
-						<span className="gradient-text">Go Viral</span>?
+						Ready to create posts that{" "}
+						<span className="gradient-text">Go Viral</span>
+						<br /> doing <span className="gradient-text">Nothing?</span>
 					</h1>
 
 					<p className="text-lg md:text-xl text-gray-300 mb-8">
-						With SpellPost's fully automated viral-engine, you never lift a
-						finger.
+						SpellPost automatically generates and posts content to your social
+						media profiles based on your needs.
 					</p>
-
 					<button
 						type="button"
 						onClick={() => setIsModalOpen(true)}
