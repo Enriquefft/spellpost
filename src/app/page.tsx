@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import Footer from "@/components/Footer";
 import Logo from "@/components/Logo";
 import HomeContent from "@/components/landing/modal";
