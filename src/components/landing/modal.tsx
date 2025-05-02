@@ -20,7 +20,7 @@ export default function HomeContent() {
 	return (
 		<>
 			{/* Hero Section */}
-			<section className="relative min-h-screen flex flex-col items-center justify-center px-6 pt-16">
+			<section className="min-h-screen flex flex-col items-center justify-center px-6 pt-16">
 				<div className="container mx-auto text-center max-w-3xl">
 					<h1 className="text-4xl md:text-5xl lg:text-6xl font-poppins font-bold mb-6 leading-tight">
 						Ready to create posts that{" "}
@@ -50,7 +50,7 @@ export default function HomeContent() {
 				</div>
 
 				{/* Animated scroll indicator */}
-				<div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
+				<div className="animate-bounce mt-6">
 					<div className="w-6 h-10 border-2 border-white/50 rounded-full flex justify-center">
 						<div className="w-1 h-3 bg-white/50 rounded-full mt-2" />
 					</div>
@@ -58,7 +58,7 @@ export default function HomeContent() {
 			</section>
 
 			{/* Features Section */}
-			<section ref={featuresRef} className="py-20 px-6">
+			<section ref={featuresRef} className="pb-20 px-6">
 				<div className="container mx-auto">
 					<h2 className="text-3xl md:text-4xl font-poppins font-semibold mb-12 text-center">
 						<span className="gradient-text">Viral</span> Features
