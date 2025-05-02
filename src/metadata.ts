@@ -6,11 +6,6 @@ export const metadata: Metadata = {
 			url: "https://www.linkedin.com/in/enriqueflores000/",
 		},
 	],
-	description: "Nextjs template",
-	keywords: ["Nextjs", "fullstack", "templates"],
-	metadataBase: new URL("https://next-learn-dashboard.vercel.sh"),
-	title: {
-		default: "Nextjs template",
-		template: "%s | Nextjs template",
-	},
+	keywords: ["social media", "AI", "automate", "cheap"],
+	title: "SpellPost",
 };
